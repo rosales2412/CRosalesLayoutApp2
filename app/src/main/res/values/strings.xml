@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyLayout</string>
+    <string name="welcome_juan">Welcome Juan</string>
+    <string name="book">Book</string>
+    <string name="our_services">Our services</string>
+    <string name="nuestros_servicios">Nuestros servicios</string>
+    <string name="jun_18_2010">Jun 18 2010</string>
+    <string name="toy_story">Toy Story</string>
+    <string name="rent_from_24_99">Rent from $24,99</string>
+    <string name="buy_from_44_99">Buy from $ 44,99</string>
+    <string name="woody_buzz_lightyear_and_the_restzzzz_of_the_gang_embark_on_a_road_trip_with_bonnie_and_a_new_toy_named_forky_the_adventurous_journey_turns_into_an_unexpected_reunion_as_woody_s_slight_detour_leads_him_to_his_long_lost_friend_bo_peep_as_woody_and_bo_discuss_the_old_days_they_soon_start_to_realize_that_they_re_worlds_apart_when_it_comes_to_what_they_want_from_life_as_a_toy">Woody, Buzz Lightyear and the restzzzz of the gang embark on a road trip with Bonnie and a new toy named Forky. The adventurous journey turns into an unexpected reunion as Woody´s slight detour leads him to his long-lost friend Bo Peep. As Woody and Bo discuss the old days, they soon start to realize that they´re worlds apart when it comes to what they want from life as a toy.</string>
+</resources>

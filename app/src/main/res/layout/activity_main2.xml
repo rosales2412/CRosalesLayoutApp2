@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:id="@+id/doctorImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/toy_story"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"
+        android:foreground="@color/foreground"
+        />
+
+    <ImageView
+        android:layout_width="133dp"
+        android:layout_height="189dp"
+        android:src="@drawable/cover_page"
+
+        app:layout_constraintStart_toStartOf="@id/guideV1"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/guideH4"
+        tools:layout_editor_absoluteY="146dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.47"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideH1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="370dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideH2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="430dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideH3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="460dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideH4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="145dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95"/>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toy_story"
+        app:layout_constraintStart_toStartOf="@id/guideV2"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintTop_toBottomOf="@id/doctorImage"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jun_18_2010"
+        app:layout_constraintStart_toStartOf="@id/guideV2"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/rentBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rent_from_24_99"
+        app:layout_constraintStart_toEndOf="@id/guideV1"
+
+        app:layout_constraintTop_toBottomOf="@id/guideH1"
+        app:layout_constraintBottom_toTopOf="@id/guideH2"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/buyBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_from_44_99"
+        app:layout_constraintEnd_toStartOf="@id/guideV3"
+        app:layout_constraintTop_toBottomOf="@id/guideH1"
+        app:layout_constraintBottom_toTopOf="@id/guideH2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="331dp"
+        android:layout_height="230dp"
+        android:text="@string/woody_buzz_lightyear_and_the_restzzzz_of_the_gang_embark_on_a_road_trip_with_bonnie_and_a_new_toy_named_forky_the_adventurous_journey_turns_into_an_unexpected_reunion_as_woody_s_slight_detour_leads_him_to_his_long_lost_friend_bo_peep_as_woody_and_bo_discuss_the_old_days_they_soon_start_to_realize_that_they_re_worlds_apart_when_it_comes_to_what_they_want_from_life_as_a_toy"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@id/guideV3"
+        app:layout_constraintStart_toEndOf="@id/guideV1"
+        app:layout_constraintTop_toBottomOf="@id/guideH3"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
